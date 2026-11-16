@@ -1,5 +1,8 @@
-# The repo ships only this dir's README. Anything dropped here for local testing
-# (and the runtime db/trusted-plugins opt-ins) stays out of version control.
+# The repo ships this directory's README, plus the verification plugin
+# types/devin on the draft branch. Other local drop-ins stay untracked.
 *
 !.gitignore
 !README.md
+!types/
+!types/devin/
+!types/devin/**
